@@ -95,9 +95,9 @@
 					"fontsize" : 12.0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 18.0, 52.0, 819.0, 471.0 ],
+						"rect" : [ 18.0, 52.0, 853.0, 441.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 18.0, 52.0, 819.0, 471.0 ],
+						"defrect" : [ 18.0, 52.0, 853.0, 441.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -113,7 +113,38 @@
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
 						"title" : "Version control with git",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "Git Setup",
+									"numinlets" : 1,
+									"patching_rect" : [ 25.0, 124.0, 110.0, 20.0 ],
+									"id" : "obj-19",
+									"fontname" : "Arial",
+									"numoutlets" : 0,
+									"fontsize" : 12.0,
+									"presentation_rect" : [ 25.0, 124.0, 0.0, 0.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "message",
+									"text" : ";\rmax launchbrowserhttp://git-scm.com/book/en/Getting-Started-First-Time-Git-Setup",
+									"linecount" : 3,
+									"numinlets" : 2,
+									"patching_rect" : [ 468.0, 116.5, 325.0, 36.0 ],
+									"id" : "obj-17",
+									"fontname" : "Arial",
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"fontsize" : 9.0,
+									"presentation_rect" : [ 479.0, 191.0, 0.0, 0.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"maxclass" : "comment",
 									"text" : "Git Dokumentation",
@@ -133,7 +164,7 @@
 									"text" : ";\rmax launchbrowser http://git-scm.com/documentation",
 									"linecount" : 2,
 									"numinlets" : 2,
-									"patching_rect" : [ 479.0, 79.0, 247.0, 27.0 ],
+									"patching_rect" : [ 468.0, 75.5, 247.0, 27.0 ],
 									"id" : "obj-15",
 									"fontname" : "Arial",
 									"numoutlets" : 1,
@@ -176,7 +207,7 @@
 									"maxclass" : "comment",
 									"text" : "git pull",
 									"numinlets" : 1,
-									"patching_rect" : [ 294.0, 261.0, 58.0, 22.0 ],
+									"patching_rect" : [ 293.0, 240.0, 58.0, 22.0 ],
 									"id" : "obj-12",
 									"fontname" : "Lucida Grande Bold",
 									"numoutlets" : 0,
@@ -190,7 +221,7 @@
 									"maxclass" : "comment",
 									"text" : "Michi's Änderungen runterladen",
 									"numinlets" : 1,
-									"patching_rect" : [ 30.0, 263.0, 180.0, 20.0 ],
+									"patching_rect" : [ 30.0, 242.0, 180.0, 20.0 ],
 									"id" : "obj-11",
 									"fontname" : "Arial",
 									"numoutlets" : 0,
@@ -204,7 +235,7 @@
 									"maxclass" : "comment",
 									"text" : "Erstes Mal aus-checken vom Repository",
 									"numinlets" : 1,
-									"patching_rect" : [ 30.0, 230.0, 225.0, 20.0 ],
+									"patching_rect" : [ 30.0, 209.0, 225.0, 20.0 ],
 									"id" : "obj-10",
 									"fontname" : "Arial",
 									"numoutlets" : 0,
@@ -232,7 +263,7 @@
 									"maxclass" : "comment",
 									"text" : "git clone https://github.com/mirdej/basiskurs-jitter-2013.git\n",
 									"numinlets" : 1,
-									"patching_rect" : [ 294.0, 229.0, 429.0, 22.0 ],
+									"patching_rect" : [ 293.0, 208.0, 429.0, 22.0 ],
 									"id" : "obj-6",
 									"fontname" : "Lucida Grande Bold",
 									"numoutlets" : 0,
@@ -274,7 +305,7 @@
 									"text" : ";\rmax launchbrowser http://code.google.com/p/git-osx-installer/",
 									"linecount" : 2,
 									"numinlets" : 2,
-									"patching_rect" : [ 479.0, 35.0, 282.0, 27.0 ],
+									"patching_rect" : [ 468.0, 34.0, 282.0, 27.0 ],
 									"id" : "obj-2",
 									"fontname" : "Arial",
 									"numoutlets" : 1,
@@ -287,7 +318,7 @@
 								"box" : 								{
 									"maxclass" : "panel",
 									"numinlets" : 1,
-									"patching_rect" : [ 14.0, 185.0, 781.0, 172.0 ],
+									"patching_rect" : [ 14.0, 185.0, 791.0, 168.0 ],
 									"bgcolor" : [ 0.917647, 0.937255, 0.670588, 1.0 ],
 									"id" : "obj-8",
 									"numoutlets" : 0
@@ -298,7 +329,7 @@
 								"box" : 								{
 									"maxclass" : "panel",
 									"numinlets" : 1,
-									"patching_rect" : [ 14.0, 28.0, 781.0, 95.0 ],
+									"patching_rect" : [ 14.0, 28.0, 791.0, 131.0 ],
 									"bgcolor" : [ 0.917647, 0.937255, 0.670588, 1.0 ],
 									"id" : "obj-9",
 									"numoutlets" : 0,
