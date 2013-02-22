@@ -117,14 +117,69 @@
 						"boxes" : [ 							{
 								"box" : 								{
 									"maxclass" : "comment",
-									"text" : "Git Setup",
+									"text" : "git commit -a -m \"mein log eintrag für diese version\"",
 									"numinlets" : 1,
-									"patching_rect" : [ 25.0, 124.0, 110.0, 20.0 ],
-									"id" : "obj-19",
+									"patching_rect" : [ 293.0, 320.0, 399.0, 22.0 ],
+									"id" : "obj-20",
+									"fontname" : "Lucida Grande Bold",
+									"numoutlets" : 0,
+									"fontsize" : 13.0,
+									"presentation_rect" : [ 293.0, 317.0, 0.0, 0.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "git add blabla.maxpat",
+									"numinlets" : 1,
+									"patching_rect" : [ 293.0, 294.0, 156.0, 22.0 ],
+									"id" : "obj-18",
+									"fontname" : "Lucida Grande Bold",
+									"numoutlets" : 0,
+									"fontsize" : 13.0,
+									"presentation_rect" : [ 293.0, 287.0, 0.0, 0.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "Eigene Files hinzufügen",
+									"numinlets" : 1,
+									"patching_rect" : [ 25.0, 294.0, 180.0, 20.0 ],
+									"id" : "obj-3",
 									"fontname" : "Arial",
 									"numoutlets" : 0,
 									"fontsize" : 12.0,
-									"presentation_rect" : [ 25.0, 124.0, 0.0, 0.0 ]
+									"presentation_rect" : [ 25.0, 282.0, 0.0, 0.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "Eigene Änderungen speichern",
+									"numinlets" : 1,
+									"patching_rect" : [ 25.0, 320.0, 180.0, 20.0 ],
+									"id" : "obj-1",
+									"fontname" : "Arial",
+									"numoutlets" : 0,
+									"fontsize" : 12.0,
+									"presentation_rect" : [ 30.0, 288.0, 0.0, 0.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"maxclass" : "comment",
+									"text" : "Git Setup",
+									"numinlets" : 1,
+									"patching_rect" : [ 25.0, 123.0, 110.0, 20.0 ],
+									"id" : "obj-19",
+									"fontname" : "Arial",
+									"numoutlets" : 0,
+									"fontsize" : 12.0
 								}
 
 							}
@@ -139,8 +194,7 @@
 									"fontname" : "Arial",
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"fontsize" : 9.0,
-									"presentation_rect" : [ 479.0, 191.0, 0.0, 0.0 ]
+									"fontsize" : 9.0
 								}
 
 							}
@@ -149,12 +203,11 @@
 									"maxclass" : "comment",
 									"text" : "Git Dokumentation",
 									"numinlets" : 1,
-									"patching_rect" : [ 25.0, 79.0, 110.0, 20.0 ],
+									"patching_rect" : [ 25.0, 78.0, 110.0, 20.0 ],
 									"id" : "obj-16",
 									"fontname" : "Arial",
 									"numoutlets" : 0,
-									"fontsize" : 12.0,
-									"presentation_rect" : [ 25.0, 64.0, 0.0, 0.0 ]
+									"fontsize" : 12.0
 								}
 
 							}
@@ -169,8 +222,7 @@
 									"fontname" : "Arial",
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"fontsize" : 10.0,
-									"presentation_rect" : [ 479.0, 64.0, 0.0, 0.0 ]
+									"fontsize" : 10.0
 								}
 
 							}
@@ -183,8 +235,7 @@
 									"id" : "obj-14",
 									"fontname" : "Lucida Grande Bold",
 									"numoutlets" : 0,
-									"fontsize" : 13.0,
-									"presentation_rect" : [ 143.0, 68.0, 0.0, 0.0 ]
+									"fontsize" : 13.0
 								}
 
 							}
@@ -197,8 +248,7 @@
 									"id" : "obj-13",
 									"fontname" : "Lucida Grande Bold",
 									"numoutlets" : 0,
-									"fontsize" : 12.0,
-									"presentation_rect" : [ 15.0, -5.0, 0.0, 0.0 ]
+									"fontsize" : 12.0
 								}
 
 							}
@@ -211,8 +261,7 @@
 									"id" : "obj-12",
 									"fontname" : "Lucida Grande Bold",
 									"numoutlets" : 0,
-									"fontsize" : 13.0,
-									"presentation_rect" : [ 294.0, 144.0, 0.0, 0.0 ]
+									"fontsize" : 13.0
 								}
 
 							}
@@ -221,12 +270,11 @@
 									"maxclass" : "comment",
 									"text" : "Michi's Änderungen runterladen",
 									"numinlets" : 1,
-									"patching_rect" : [ 30.0, 242.0, 180.0, 20.0 ],
+									"patching_rect" : [ 25.0, 241.0, 180.0, 20.0 ],
 									"id" : "obj-11",
 									"fontname" : "Arial",
 									"numoutlets" : 0,
-									"fontsize" : 12.0,
-									"presentation_rect" : [ 30.0, 146.0, 0.0, 0.0 ]
+									"fontsize" : 12.0
 								}
 
 							}
@@ -235,12 +283,11 @@
 									"maxclass" : "comment",
 									"text" : "Erstes Mal aus-checken vom Repository",
 									"numinlets" : 1,
-									"patching_rect" : [ 30.0, 209.0, 225.0, 20.0 ],
+									"patching_rect" : [ 25.0, 208.0, 225.0, 20.0 ],
 									"id" : "obj-10",
 									"fontname" : "Arial",
 									"numoutlets" : 0,
-									"fontsize" : 12.0,
-									"presentation_rect" : [ 25.0, 102.0, 0.0, 0.0 ]
+									"fontsize" : 12.0
 								}
 
 							}
@@ -253,8 +300,7 @@
 									"id" : "obj-7",
 									"fontname" : "Lucida Grande Bold",
 									"numoutlets" : 0,
-									"fontsize" : 12.0,
-									"presentation_rect" : [ 25.0, 80.0, 0.0, 0.0 ]
+									"fontsize" : 12.0
 								}
 
 							}
@@ -267,8 +313,7 @@
 									"id" : "obj-6",
 									"fontname" : "Lucida Grande Bold",
 									"numoutlets" : 0,
-									"fontsize" : 13.0,
-									"presentation_rect" : [ 143.0, 74.0, 0.0, 0.0 ]
+									"fontsize" : 13.0
 								}
 
 							}
@@ -281,8 +326,7 @@
 									"id" : "obj-5",
 									"fontname" : "Lucida Grande Bold",
 									"numoutlets" : 0,
-									"fontsize" : 13.0,
-									"presentation_rect" : [ 143.0, 25.0, 0.0, 0.0 ]
+									"fontsize" : 13.0
 								}
 
 							}
@@ -318,7 +362,7 @@
 								"box" : 								{
 									"maxclass" : "panel",
 									"numinlets" : 1,
-									"patching_rect" : [ 14.0, 185.0, 791.0, 168.0 ],
+									"patching_rect" : [ 14.0, 185.0, 792.0, 213.0 ],
 									"bgcolor" : [ 0.917647, 0.937255, 0.670588, 1.0 ],
 									"id" : "obj-8",
 									"numoutlets" : 0
@@ -332,8 +376,7 @@
 									"patching_rect" : [ 14.0, 28.0, 791.0, 131.0 ],
 									"bgcolor" : [ 0.917647, 0.937255, 0.670588, 1.0 ],
 									"id" : "obj-9",
-									"numoutlets" : 0,
-									"presentation_rect" : [ 14.0, 16.0, 0.0, 0.0 ]
+									"numoutlets" : 0
 								}
 
 							}
